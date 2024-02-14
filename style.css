@@ -61,6 +61,11 @@ body {
   font-weight: 800;
 }
 
+.card button:hover {
+  transform: scale(1.1);
+  transition: transform 400ms ease-in-out;
+}
+
 .card span {
   font-size: 1.2rem;
   display: block;
