@@ -45,10 +45,16 @@ body {
   height: 100%;
   background-color: var(--color-neutral-black);
   position: absolute;
-  bottom: -8px;
+  bottom: -0.8rem;
   right: -1rem;
   border-radius: 1rem;
   z-index: -1;
+}
+
+.card:hover:before {
+  bottom: -1.1rem;
+  right: -1.5rem;
+  transition: all 200ms ease-in-out;
 }
 
 .card button {
